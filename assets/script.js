@@ -36,7 +36,7 @@ function getSelections() {
     confirmUppercase = confirm("Include uppercase letters? (OK for yes, Cancel for no)");
     //None selected
     if (!confirmSpecial && !confirmNumber && !confirmLowercase && !confirmUppercase) {
-        selections = alert("Choose at least one option");
+        selections = alert("Choose at least one option - Tip: more selections means more secure!");
         getSelections();
     }
 }
@@ -142,3 +142,4 @@ function copyPassword() {
     navigator.clipboard.writeText(cpw);
     alert("Password copied to clipboard!");
 }
+//I have ensured that each criterion selected was included in the generated password, but was only able to do it with them being generated in a repetitive order. I would try to create a new code to randomize these in a future release.
