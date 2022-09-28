@@ -1,7 +1,7 @@
 # password-generator
 
-https://jaxpi.github.io/Professional-Portfolio/
-<img src="assets/images/mainscreenshot.png" style="width:300px; height auto;">
+https://jaxpi.github.io/password-generator/
+<br><img src="assets/images/mainscreenshot.png" style="width:300px; height auto;">
 
 ## Description
 
@@ -25,8 +25,8 @@ When the user inputs a valid number they will then be prompted with options to i
 
 <img src="assets/images/specialscreenshot.png" style="width:300px; height auto;">
 <img src="assets/images/numberscreenshot.png" style="width:300px; height auto;">
-<img src="assets/images/lowercasescreenshot.png" style="width:300px; height auto;">
-<img src="assets/images/uppercasescreenshot.png" style="width:300px; height auto;">
+<img src="assets/images/lowerscreenshot.png" style="width:300px; height auto;">
+<img src="assets/images/upperscreenshot.png" style="width:300px; height auto;">
 
 Since these are the only options, if a user chooses not to include all four options, a message will show to remind the user that they must choose at least one criterion.
 
